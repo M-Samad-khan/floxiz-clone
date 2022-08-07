@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/* ===========navbbar begin */
+
+.navbar{
+    position:absolute !important;
+    background: #0000009c;
+    top: 0;
+    width: 100%;
+}
+.navbar a{
+    color: white;
+    font-family: inherit;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+#navbarNav li a{
+    font-size: 18px;
+}
+.container-fluid img{
+   width: 100px;
+   
+}
+.botton{
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    display: block;
+    padding: 0 30px;
+    white-space: nowrap;
+    letter-spacing: -.02em;
+    color: #fff;
+    border-radius: 100px;
+    background-color: #4abb62;
+}
+.botton:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+
+/* ===========navbar end=========== */
+
+/* ==========hero section begin================ */
+
+.hero-section{
+    background: url(../images/background.webp);
+    height: 80vh !important;
+    display: flex;
+    align-items: center;
+}
+.type{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.15;    
+}
+.change-type{
+    font-weight: bold;
+    
+}
+p{
+    color: rgb(202, 189, 189);
+    text-align: center;
+    font-size: 16px;
+    
+}
+p span{
+    display: block;
+    
+}
+.btn{
+    font-size: 13px;
+    font-weight: 700 !important;
+    padding: 10px 35px !important;
+    letter-spacing: -.02em;
+    color: #fff !important;
+    border-radius: 48px !important;
+    
+}
+.demo{
+    display: flex;
+    justify-content: center;
+}
+.black{
+    background-color: black !important;
+}
+.green{
+    background-color: #4abb62 !important;
+    margin-left: 10px;
+}
+
+.black:hover{
+    background: white !important;
+    color: black !important;
+}
+/* ====================hero secton end============ */
+
+/* =============page-header-begin============= */
+.section{
+    background-color: black;
+    padding: 80px 0 0 0;
+}
+.page-header{
+    width: 100%;
+    background: linear-gradient(90deg, #4158d0 0%, #ff0ecb 46%, #ff4962 100%);
+    color: #6800c8;
+    padding: 8px;
+}
+.prebulit-card{
+    text-align: center;
+}
+
+.page-header p{
+    display: flex;
+    justify-content: center;
+   font-size: 17px; 
+    line-height: 1.9;
+}
+.logo{
+    text-align: center;
+}
+.navbar-toggler i{
+    color: #fff;
+}
+.navbar-collapse .botton{
+    margin-left: auto;
+}
+.logo img{
+  width: 205px;
+  margin: 80px auto; 
+}
+
+.heading h2{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
+.heading span{
+    color: #aaa;
+    text-align: center !important;
+}
+
+/* =============page-header-end============= */
+/* =============demo filter=============== */
+.demo-filter{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+.demo-filter button{ 
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    display: inline-flex;
+    margin: 0 2px;
+    padding: 0 8px; 
+    color: #fff;
+    border: none !important;
+    -webkit-border-radius: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.demo-filter button:hover{
+    color: white;
+    background-color: red;
+    box-shadow: red 20px 5px 20px 8px;
+}
+/* =========== DEMO FILTER END============ */
+/* ============= IMG HOVER START============== */
+
+.col-lg-3 p{
+    color: gray;
+}
+.col-lg-3 img{
+    box-shadow: gray 2px 4px 5px;
+}
+.col-lg-3 img:hover{
+    background-attachment: fixed;
+    padding: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+/* ============= IMG HOVER END============== */
+/* ========FOOTER START========== */
+
+
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+}
+footer h2{
+    font-size: 40px;
+    text-align: center;
+}
+footer span{
+    color: gray;
+    
+}
+.footer button{
+    display: block;
+}
+/* ========FOOTER END========== */
+
+/* 
+.concept h1{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+.concept span{
+    color: grey;
+    font-size: 15px;
+    text-align: center !important;
+} */
+
+/* =============demo filter end=============== */
+
+
